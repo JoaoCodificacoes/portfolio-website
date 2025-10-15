@@ -6,7 +6,11 @@ module.exports = {
         "./src/app/**/*.{ts,tsx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                'terminal-foreground': 'var(--terminal-foreground)',
+            },
+        },
     },
     plugins: [require("tailwindcss-animate")],
 }
