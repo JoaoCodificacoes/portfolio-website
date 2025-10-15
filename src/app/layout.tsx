@@ -8,6 +8,7 @@ import {
     IBM_Plex_Mono as V0_Font_IBM_Plex_Mono,
     IBM_Plex_Serif as V0_Font_IBM_Plex_Serif,
 } from "next/font/google"
+import {Navbar} from "@/components/NavBar";
 
 const _rubik = V0_Font_Rubik({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700", "800", "900"] })
 const _ibmPlexMono = V0_Font_IBM_Plex_Mono({
@@ -28,6 +29,7 @@ export default function RootLayout({
         <html lang="en" className="dark">
         <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
         <Suspense fallback={null}>
+            <Navbar />
             {children}
         </Suspense>
         </body>
