@@ -8,7 +8,7 @@ import {
     IBM_Plex_Mono as V0_Font_IBM_Plex_Mono,
     IBM_Plex_Serif as V0_Font_IBM_Plex_Serif,
 } from "next/font/google"
-import {Navbar} from "@/components/NavBar";
+import {Navbar} from "@/components/Navbar";
 import {Footer} from "@/components/Footer";
 
 const _rubik = V0_Font_Rubik({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700", "800", "900"] })
