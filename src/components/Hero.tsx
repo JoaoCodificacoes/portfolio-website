@@ -14,10 +14,10 @@ export function Hero() {
                     bla bla bla bla bla bla bla bla
                 </p>
                 <div className="flex gap-3">
-                    <Button variant="ghost" asChild>
+                    <Button variant="outline" asChild>
                         <Link href="/cv">View CV</Link>
                     </Button>
-                    <Button variant="ghost" asChild>
+                    <Button variant="outline" asChild>
                         <a href="https://github.com/JoaoCodificacoes" target="_blank" rel="noopener noreferrer">
                             <GithubIcon className="w-4 h-4 mr-2" />
                             GitHub
