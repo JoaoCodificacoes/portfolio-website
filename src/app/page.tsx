@@ -1,14 +1,13 @@
 import { Hero } from "@/components/Hero"
-import {About} from "@/components/About";
+import { About } from "@/components/About"
+import { Projects } from "@/components/Projects"
 
 export default function Home() {
     return (
-        <div className="min-h-screen">
-            <main className="container mx-auto px-4">
-                <Hero />
-                <About/>
-
-            </main>
-        </div>
+        <main className="container mx-auto px-4">
+            <Hero />
+            <About />
+            <Projects />
+        </main>
     )
 }
